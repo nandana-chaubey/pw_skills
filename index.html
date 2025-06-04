@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSD Assignment-001</title>
+</head>
+<body>
+
+  <!-- Question 1 : Explain the basic structure of an HTML page. Why is it important to follow
+this structure? -->
+
+<!-- Answer -->
+ Document Type Declaration (<!DOCTYPE html>): This tells the browser the document is an HTML5 document. 
+<html> (HTML Root): This element encloses all other elements in the HTML document. 
+<head>: This section contains metadata that isn't displayed directly on the webpage. It includes: 
+<title>: Defines the title that appears in the browser tab. 
+<meta>: Provides information like character set, viewport settings, or descriptions for search engines. 
+<body>: This section contains the main content of the webpage that users will see. 
+
+  A well-structured HTML document is easier to read, understand, and modify, making it easier for developers to maintain and update websites. It provides semantic meaning for screen readers. Proper HTML structure, including metadata in the <head>, helps search engines understand the content and improve search results.
+
+<!-- Question 2: You’re building a small personal profile page. Which HTML tags will you
+use to highlight your name as a heading, describe yourself in a paragraph, and
+emphasize a key skill? -->
+
+<!-- Answer -->
+ <h1>Nandana M Chaubey</h1>
+<p>I am a software engineer </p>
+<p>My key skill is <strong>PHP programming</strong>.</p>
+
+
+<!-- Question 3: Look at the code below. Can you find and fix the mistake? -->
+<!-- This is an HTML comment
+<h1>Welcome to my website</h1>-->
+
+
+<!-- Answer -->
+ <!-- This is an HTML comment-->
+<h1>Welcome to my website</h1>
+
+
+
+<!-- Question 4: You’re creating a form that asks the user to enter their name, select their
+country from a list, and click a button to submit. Write the HTML code for this. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSD Assignment-001</title>
+</head>
+<body>
+<select>
+    <option value="United States">United States</option>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    <option value="American Samoa">American Samoa</option>
+    <option value="Andorra">Andorra</option>
+</select>
+</body>
+</html>
+
+<!-- Question 5: Write short HTML code to show your favorite fruits in a bulleted list and
+your top 3 programming languages in a numbered list. -->
+
+<!-- Answer -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lists</title>
+</head>
+<body>
+
+<h2>Top 3 Programming Languages:</h2>
+<ol>
+  <li>PHP</li>
+  <li>Java</li>
+  <li>JavaScript</li>
+</ol>
+
+</body>
+</html>
+
+<!-- Question 6: Ravi wants to leave a note in his HTML file so that only other developers
+can see it, not the users on the website. How should he do this? Why are such notes
+useful? -->
+
+<!-- Answer -->
+
+Ravi should use HTML comments to leave notes in his HTML file that are visible to developers but not users. HTML comments are enclosed within <!-- and --> tags and are ignored by the browser. This is a convenient way to add internal documentation or notes without affecting the rendered webpage. 
+Because
+HTML comments can explain the purpose of code blocks, how they work, or any assumptions made during development.
+
+
+
+<!-- Question 7: Here’s a form snippet. Can you spot the error and rewrite the correct
+version?
+<form>
+ <input name="email">
+ <select>
+ <option>India</option>
+ </select>
+ <button>Send</buton>
+</form> -->
+
+<!-- Answer -->
+
+<form action="">
+ <input type="text">
+ <select>
+ <option>India</option>
+ </select>
+ <button>Send</buton>
+</form>
+
+
+  
+</body>
+</html>
